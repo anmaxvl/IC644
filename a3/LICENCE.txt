@@ -1,0 +1,23 @@
+Simple ray tracer
+-----------------
+
+version 1.0, April 2004
+-----------------------
+
+License
+-------
+Code by Nicholas Chapman, nickamy@paradise.net.nz
+
+You may use this code for any non-commercial project,
+as long as you do not remove this description.
+
+You may *not* use this code for any commercial project.
+-------
+
+
+by Nicholas Chapman
+-------------------
+
+nickamy@paradise.net.nz
+
+http://homepages.paradise.net.nz/nickamy/
