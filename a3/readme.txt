@@ -1,47 +1,18 @@
+Computer Graphics.
+Fall 2012
 
+An Maksim
 
-Simple ray tracer
------------------
+Programming Assignment #3 (Ray tracing)
 
-version 1.0, April 2004
------------------------
+What is done:
+	- Added new primitive Cube, which is a subclass of Primitive. 
+	- Added a new virtual function to Primitive class setTransformationMatrix(float trMatrix[3][3]) so it is easier to control Cube orientation.
+	- In Engine class added haze coefficient setter and haze-color getter (attached screenshots for different values of "ro").
+	
 
+On the scene:
+	- One reflective, refractive and diffuse cube.
 
-This is supposed to be a very simple, minimal raytracer, mainly for educational purposes.
-
-
-
-Building
---------
-There is a MSVC++ 6.0 workspace included - the file /simpleraytracer/winsimpleraytracer.dsw.
-
-Hopefully u should be able to build the project from this: if not you can always run the 
-executable.
-
-Build it in release mode for optimum speed. 
-
-
-
-If you are interested in this, you might want to check out my real-time OpenGL 
-accelerated raytracer at 
-
-http://homepages.paradise.net.nz/nickamy/raytracer/raytracer.htm
-
-
-License
--------
-Code by Nicholas Chapman, nickamy@paradise.net.nz
-
-You may use this code for any non-commercial project,
-as long as you do not remove this description.
-
-You may *not* use this code for any commercial project.
--------
-
-
-by Nicholas Chapman
--------------------
-
-nickamy@paradise.net.nz
-
-http://homepages.paradise.net.nz/nickamy/
+Current (maybe) Problem:
+	I think that the reflection and diffuse cubes are OK, but the refraction cube seems a bit "not realistic", but I couldn't fix it. But may be it only seems that way.
